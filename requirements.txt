@@ -1,1 +1,4 @@
 git+https://github.com/gugarosa/opfython
+matplotlib>=3.2.2
+seaborn>=0.10.1
+scikit-learn>=0.22.2

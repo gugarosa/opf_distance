@@ -1,5 +1,4 @@
 import numpy as np
-
 import opfython.stream.loader as l
 import opfython.stream.parser as p
 import opfython.stream.splitter as s
