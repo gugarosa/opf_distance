@@ -65,4 +65,4 @@ if __name__ == '__main__':
         c_matrix[i] = g.confusion_matrix(Y_test, preds)
 
     # Saving confusion matrix in a pickle file
-    np.save(f'{args.dataset}_seed.pkl', c_matrix)
+    np.save(f'output/{args.dataset}_{seed}', c_matrix)
