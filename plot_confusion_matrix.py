@@ -16,7 +16,12 @@ def get_arguments():
 
     parser = argparse.ArgumentParser(usage='Plots the confusion matrix.')
 
-    parser.add_argument('dataset', help='Dataset identifier', choices=['boat'])
+    parser.add_argument('dataset', help='Dataset identifier', choices=['arcene', 'basehock', 'caltech101', 'coil20',
+                                                                       'isolet', 'lung', 'madelon', 'mpeg7', 'mpeg7_BAS',
+                                                                       'mpeg7_FOURIER', 'mushrooms', 'ntl-commercial',
+                                                                       'ntl-industrial', 'orl', 'pcmac', 'phishing',
+                                                                       'segment', 'semeion', 'sonar', 'spambase',
+                                                                       'tor-nontor', 'vehicle', 'wine'])
 
     parser.add_argument('seed', help='Deterministic seed', type=int)
 
