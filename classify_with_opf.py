@@ -25,7 +25,7 @@ def get_arguments():
                                                                        'mpeg7_FOURIER', 'mushrooms', 'ntl-commercial',
                                                                        'ntl-industrial', 'orl', 'pcmac', 'phishing',
                                                                        'segment', 'semeion', 'sonar', 'spambase',
-                                                                       'tor-nontor', 'vehicle', 'wine'])
+                                                                       'vehicle', 'wine'])
 
     parser.add_argument('-tr_split', help='Training set percentage', type=float, default=0.5)
 
