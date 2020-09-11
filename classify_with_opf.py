@@ -78,9 +78,9 @@ if __name__ == '__main__':
         report.append(classification_report(Y_test, preds, output_dict=True))
 
     # Saving confusion matrix in a .npy file
-    np.save(f'output/{args.dataset}_{seed}_matrix', c_matrix)
+    np.save(f'outputs/{args.dataset}_{seed}_matrix', c_matrix)
 
     # Opening file to further save
-    with open(f'output/{args.dataset}_{seed}_report.pkl', 'wb') as f:
+    with open(f'outputs/{args.dataset}_{seed}_report.pkl', 'wb') as f:
         # Saving report to a .pkl file
         pickle.dump(report, f)

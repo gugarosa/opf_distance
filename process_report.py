@@ -33,8 +33,8 @@ if __name__ == '__main__':
     # Gathering common variables
     dataset = args.dataset
     seed = args.seed
-    input_file = f'output/{dataset}_{seed}_report.pkl'
-    output_file = f'output/{dataset}_{seed}_report.txt'
+    input_file = f'outputs/{dataset}_{seed}_report.pkl'
+    output_file = f'outputs/{dataset}_{seed}_report.txt'
 
     # Opening the input file
     with open(input_file, 'rb') as f:

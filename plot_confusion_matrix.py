@@ -38,8 +38,8 @@ if __name__ == '__main__':
     dataset = args.dataset
     seed = args.seed
     idx = args.idx
-    input_file = f'output/{dataset}_{seed}_matrix.npy'
-    output_file = f'output/{dataset}_{seed}_report.txt'
+    input_file = f'outputs/{dataset}_{seed}_matrix.npy'
+    output_file = f'outputs/{dataset}_{seed}_report.txt'
 
     # Loading the input file
     c_matrix = np.load(input_file)
