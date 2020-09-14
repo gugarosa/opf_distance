@@ -4,7 +4,7 @@ DATASETS=("arcene" "basehock" "caltech101" "coil20"
           "mpeg7_FOURIER" "mushrooms" "ntl-commercial"
           "ntl-industrial" "orl" "pcmac" "phishing"
           "segment" "semeion" "sonar" "spambase"
-          "tor-nontor" "vehicle" "wine")
+          "vehicle" "wine")
 
 # Percentage of training set
 SPLIT=0.25
