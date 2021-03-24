@@ -42,7 +42,7 @@ Please [download](http://recogna.tech/files/opf_distance/data.tar.gz) the datase
 
 ### Classify with Optimum-Path Forest
 
-The first step is to classify the data using an OPF-based classifier with a particulaar distance measure. To accomplish such a step, one needs to use the following script:
+The first step is to classify the data using an OPF-based classifier with a particular distance measure. To accomplish such a step, one needs to use the following script:
 
 ```Python
 python classify_with_opf.py -h
