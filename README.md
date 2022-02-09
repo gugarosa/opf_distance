@@ -9,6 +9,14 @@
 If you use our work to fulfill any of your needs, please cite us:
 
 ```
+@misc{derosa2022comparative,
+      title={Comparative Study Between Distance Measures On Supervised Optimum-Path Forest Classification}, 
+      author={Gustavo Henrique de Rosa and Mateus Roder and João Paulo Papa},
+      year={2022},
+      eprint={2202.03854},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
 
 ---
